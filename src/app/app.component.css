@@ -1,0 +1,19 @@
+.example-container {
+  height: 100%;
+}
+
+mat-sidenav-container {
+  height: calc(100vh - 60px);
+}
+
+mat-nav-list {
+  width: 200px;
+}
+
+mat-sidenav-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+

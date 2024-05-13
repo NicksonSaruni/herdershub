@@ -1,0 +1,9 @@
+.records-container {
+    background-color: rgb(0, 255, 60);
+    padding: 50px; /* Add some padding for better spacing */
+    margin-left: 150px; /* Push the records container to the far right */
+    align-self: flex-start; /* Align the records container at the start */
+  }
+  
+  .goats-container{ display: flex;
+    align-items: flex-start; /* Align items vertically at the start */}

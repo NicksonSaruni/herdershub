@@ -1,0 +1,24 @@
+<p>goats works!</p>
+
+<div class="goats-container">
+
+<div><iframe width="560" height="315" src="https://www.youtube.com/embed/viweBZoXk9U?si=xepWoYaJnfcd5dJM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+<div class="records-container">
+    <button (click)="toggleRecords()">My Goats Records</button>
+    <div *ngIf="showRecords">
+      <h2>Goats records</h2>
+      <p>Total Bulls: {{ totalGoats }}</p>
+      <button (click)="incrementGoats()">Add goats</button>
+      <button (click)="decrementGoats()">Remove goats</button>
+
+      <p>Total Cows: {{ totalBillyGoats }}</p>
+      <button (click)="incrementBillyGoats()">Add billys</button>
+      <button (click)="incrementBillyGoats()">Remove billys</button>
+
+      <p>Total Calves: {{ totalKids }}</p>
+      <button (click)="incrementKids()">Add kids</button>
+      <button (click)="decrementKids()">Remove kids</button>
+    </div>
+  </div>
+</div>

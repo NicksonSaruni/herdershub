@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="image-container">
+    <img src="../../assets/cattles.jpg" alt="Herder's image">
+  </div>
+
+  <div class="records-container">
+    <button (click)="toggleRecords()">Animal Records</button>
+    <div *ngIf="showRecords">
+      <h2>Animal Records</h2>
+      <p>Total Bulls: {{ totalBulls }}</p>
+      <button (click)="incrementBulls()">Add Bull</button>
+      <button (click)="decrementBulls()">Remove Bull</button>
+
+      <p>Total Cows: {{ totalCows }}</p>
+      <button (click)="incrementCows()">Add Cow</button>
+      <button (click)="decrementCows()">Remove Cow</button>
+
+      <p>Total Calves: {{ totalCalves }}</p>
+      <button (click)="incrementCalves()">Add Calf</button>
+      <button (click)="decrementCalves()">Remove Calf</button>
+
+
+
+      <h2>Reproduction Tracking</h2>
+      <p>Last Breeding Date: {{ lastBreedingDate | date }}</p>
+      <button (click)="recordBreeding()">Record Breeding</button>
+      <p>Pregnancy Status: {{ pregnancyStatus }}</p>
+
+
+    </div>
+  </div>
+</div>

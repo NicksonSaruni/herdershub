@@ -1,0 +1,24 @@
+h2{background-color: red;
+  color: aliceblue;
+  text-align: center;
+
+}
+  .nnn {
+    display: flex;       /* Enables Flexbox */
+    flex-direction: row; /* Stacks items vertically */
+    justify-content: space-around;
+    width: 100%;
+    
+  
+    gap: 20px;            /* Spacing between each link */
+    align-items: center; /* Align items to the start of the flex container */
+    padding: 10px;        /* Padding around the content */
+      /* Makes the div stay at a fixed position */
+    top: 0;               /* Aligns the div to the top of the page */
+    left: 0;              /* Aligns the div to the left side of the page */
+    background-color: green;
+  }
+  
+  
+  
+  
